@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Product</title>
+
+<!-- Compiled and minified CSS -->
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+<!-- Compiled and minified JavaScript -->
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<link rel="stylesheet" href="css/app.css" />
+
+</head>
+<body
+	style="background: url(img/product_bg.jpeg); background-size: cover;">
+	<div class="container">
+		<div class="row">
+			<div class="col m6 offset-m3">
+				<div class="card #bbdefb blue lighten-4 darken-1">
+					<div class="card-content white-text">
+						<div class="form center-align">
+							<h3>Product Form!!</h3>
+							<form action="product" method="post">
+								<div class="row">
+									<div class="input-field col s12">
+										<input id="product_name" name="product_name" type="text">
+										<label for="product_name" class="product-label" >Product Name</label>
+									</div>
+								</div>
+
+								<div class="row">
+									<div class="input-field col s12">
+										<input id="product_description" name="product_description"
+											type="text"> <label for="product_description" class="product-label">Product
+											Description</label>
+									</div>
+								</div>
+
+								<div class="row">
+									<div class="input-field col s12">
+										<input id="product_price" name="product_price" type="text">
+										<label for="product_price" class="product-label">Product Price</label>
+									</div>
+								</div>
+
+								<div class="row">
+									<div class="input-field col s12">
+										<input id="product_vendor" name="product_vendor" type="text">
+										<label for="product_vendor" class="product-label">Product Vendor</label>
+									</div>
+								</div>
+
+								<div class="row">
+									<div class="input-field col s12">
+										<input type="submit" value="submit" />
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
